@@ -20,13 +20,16 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
+                    mTextMessage.setText(R.string.title_Home);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_masculino:
+                    mTextMessage.setText(R.string.title_Masculino);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                case R.id.navigation_feminino:
+                    mTextMessage.setText(R.string.title_Feminino);
+                    return true;
+                case R.id.navigation_infantil:
+                    mTextMessage.setText(R.string.title_Infantil);
                     return true;
             }
             return false;

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Macario Calçados</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_Home">Home</string>
+    <string name="title_Masculino">Masculino</string>
+    <string name="title_Feminino">Feminino</string>
+    <string name="title_Infantil">Infantil</string>
+    <string name="infantil">Infantil</string>
 </resources>

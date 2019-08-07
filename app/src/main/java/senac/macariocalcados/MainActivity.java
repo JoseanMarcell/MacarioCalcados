@@ -1,6 +1,7 @@
 package senac.macariocalcados;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -65,10 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
     //private void setListener() {
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+
+   private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
                 = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
             @Override
@@ -92,8 +92,8 @@ public class MainActivity extends AppCompatActivity {
 
         };
 
-
-    //}
-
-
 }
+
+
+
+

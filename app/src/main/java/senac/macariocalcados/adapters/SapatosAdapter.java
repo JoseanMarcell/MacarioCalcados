@@ -9,19 +9,18 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.squareup.picasso.Picasso;
-
 import java.util.List;
 import java.util.Random;
-
 import senac.macariocalcados.R;
 import senac.macariocalcados.models.Sapato;
+
 
 public class SapatosAdapter extends RecyclerView.Adapter<SapatosAdapter.SapatoViewHolder> {
     private List<Sapato> sapatoDataList;
 
     public SapatosAdapter (List<Sapato> sapatoDataList) {
+
         this.sapatoDataList = sapatoDataList;
     }
 

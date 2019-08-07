@@ -9,6 +9,6 @@ public class imgSapatos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_img_sapatos);
+        setContentView(R.layout.itens_sapatos);
     }
 }

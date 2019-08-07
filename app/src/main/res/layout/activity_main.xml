@@ -21,7 +21,9 @@
 
     <include
         android:id="@+id/include"
-        layout="@layout/barradepesquisa" />
+        layout="@layout/barradepesquisa"
+        android:layout_width="410dp"
+        android:layout_height="53dp" />
     <!--<androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinatorLayout"
         android:layout_width="match_parent"

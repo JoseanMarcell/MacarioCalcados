@@ -22,13 +22,13 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/txtmodelo"
+            android:id="@+id/txtnome"
             android:layout_width="121dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
-            android:text="Modelo"
+            android:text="Nome"
             android:textAlignment="center"
             android:textSize="18sp" />
 

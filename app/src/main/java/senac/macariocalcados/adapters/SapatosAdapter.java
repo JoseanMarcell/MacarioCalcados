@@ -42,8 +42,12 @@ public class SapatosAdapter extends RecyclerView.Adapter<SapatosAdapter.SapatoVi
         viewHolder.valor.setText(String.valueOf(data.getValor()));
        // viewHolder.imgsapato.    ;
        Picasso.get()
-               .load( "https://cdnv2.moovin.com.br/sapatogrande/imagens/produtos/original/sapato-scatamacchia-ld-01-cor-preto-bcf2b372e5b370129c2ca005b673dfd4.jpg" )
-               .into(viewHolder.imgsapato);
+                .load("https://cdnv2.moovin.com.br/sapatogrande/imagens/produtos/original/sapato-scatamacchia-ld-01-cor-preto-bcf2b372e5b370129c2ca005b673dfd4.jpg")
+                .into(viewHolder.imgsapato);
+
+        Picasso.get()
+                .load("https://t-static.dafiti.com.br/htGxe8bg_MUm0azBhYxQ-h4E2s8=/fit-in/430x623/dafitistatic-a.akamaihd.net%2fp%2fnike-t%c3%aanis-nike-dart-12-msl-preto-9630-1736602-1-zoom.jpg")
+                .into(viewHolder.imgsapato);
 
     }
 

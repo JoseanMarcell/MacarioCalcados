@@ -35,10 +35,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        Sapato sapatotest = new Sapato("NIKE", "CASUAL","MASCULINO","INFANTIL", "30");
-        sapatotest.setValor(20);
+
+
+        Sapato sapatotest = new Sapato("FERRARI", "SOCIAL","MASCULINO","ADULTO", "33");
+        Sapato sapatotest1 = new Sapato("NIKE", "CASUAL","MASCULINO","FEMININO", "33");
+        Sapato sapatotest2 = new Sapato("PE DE MOLEQUE", "CASUAL","MASCULINO","INFANTIL", "33");
+
+        //sapatotest.
+
+        sapatotest.setValor(120.00);
+        sapatotest1.setValor(160.00);
+        sapatotest2.setValor(90.00);
+
         sapatoList.add(sapatotest);
+        sapatoList.add(sapatotest1);
+        sapatoList.add(sapatotest2);
+
 
         bindView();
         setView();
@@ -53,9 +65,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setView(){
-
+        navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         sapatosAdapter = new SapatosAdapter(sapatoList);
-        manager = new GridLayoutManager(MainActivity.this, 2);
+        manager = new GridLayoutManager(MainActivity.this, 3);
         rvSapatos.setLayoutManager(manager);
         rvSapatos.setAdapter(sapatosAdapter);
 

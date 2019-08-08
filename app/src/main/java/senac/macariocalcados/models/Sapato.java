@@ -27,10 +27,10 @@ public class Sapato {
 
             this.idade = Idade.valueOf(idade);
 
-            if(genero.equals(Genero.FEMININO)){
+            if(this.genero.equals(Genero.FEMININO)){
                 this.tamanho = Tamanho.valueOf(TamFeminino.valueOf(tamanho).toString());
             }
-            if(genero.equals(Genero.MASCULINO)){
+            if(this.genero.equals(Genero.MASCULINO)){
                 this.tamanho = Tamanho.valueOf(TamMasculino.valueOf(tamanho).toString());
             }
 
@@ -89,6 +89,10 @@ public class Sapato {
 
     public boolean isPromocao() {
         return promocao;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public void setQuantidade(int quantidade) {
